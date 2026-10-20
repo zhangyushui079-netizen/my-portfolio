@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+            <button id="themeButton">Change Theme</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Hello, I'm Zhang Yushui</h1>
+            <p>Network Computing Student at UNIMAS.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <input id="search" type="search" placeholder="Search projects">
+
+            <article class="project">
+                <h3>Portfolio Website</h3>
+                <p>My personal website using HTML, CSS and JavaScript.</p>
+            </article>
+            <article class="project">
+                <h3>Database Project</h3>
+                <p>A database exercise using MySQL.</p>
+            </article>
+            <article class="project">
+                <h3>Java Application</h3>
+                <p>A programming exercise using Java.</p>
+            </article>
+            <article class="project">
+                <h3>CPU Scheduling</h3>
+                <p>A CPU scheduling simulation using Python.</p>
+            </article>
+            <article class="project">
+                <h3>Networking Practice</h3>
+                <p>A practical networking exercise.</p>
+            </article>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I study Network Computing at UNIMAS.</p>
+            <p>My interests include databases, programming and networking.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="email">Your email:</label>
+                <input id="email" type="email" required>
+                <button type="submit">Check Email</button>
+            </form>
+            <p id="message" role="status"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Zhang Yushui</p>
+    </footer>
+</body>
+</html>
